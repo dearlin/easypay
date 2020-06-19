@@ -15,7 +15,7 @@
     },
     "autoload": {
         "psr-4": {
-            "\\Hehe\\Easypay\\": "src/Hehe/Easypay"
+            "Hehe\\Easypay\\": "src/Hehe/Easypay"
         }
     }
 }

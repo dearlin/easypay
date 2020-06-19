@@ -1,4 +1,5 @@
 <?php
+namespace Hehe\Easypay;
 
 class Easy
 {
