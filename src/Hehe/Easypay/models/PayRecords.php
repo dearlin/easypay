@@ -6,7 +6,11 @@ namespace Hehe\Easypay\Models;
  * Class PayRecords
  * @package Hehe\Easypay\Models
  */
-class PayRecords extends \Illuminate\Database\Eloquent\Model
+class PayRecords extends BaseModel
 {
+    public function addRecord()
+    {
+
+    }
 
 }

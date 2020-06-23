@@ -6,7 +6,7 @@ namespace Hehe\Easypay\Models;
  * Class Orders
  * @package Hehe\Easypay\Models
  */
-class Orders extends \Illuminate\Database\Eloquent\Model
+class Orders extends BaseModel
 {
     /**
      * 通过 id 获取订单
@@ -21,5 +21,15 @@ class Orders extends \Illuminate\Database\Eloquent\Model
             $builder->lockForUpdate();
         }
         return $builder->lockForUpdate()->first();
+    }
+
+    /**
+     * 是否已支付
+     * @param \Illuminate\Database\Eloquent\Model|\Illuminate\Database\Query\Builder|object $o
+     * @return bool
+     */
+    public function isPay($o)
+    {
+        return $o->pay_time != '0000-00-00 00:00:00';
     }
 }

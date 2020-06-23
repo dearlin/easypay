@@ -6,7 +6,6 @@ namespace Hehe\Easypay\Models;
  * Class PayNotices
  * @package Hehe\Easypay\Models
  */
-class PayNotices extends \Illuminate\Database\Eloquent\Model
+class PayNotices extends BaseModel
 {
-
 }
