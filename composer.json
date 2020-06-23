@@ -12,7 +12,8 @@
     "minimum-stability": "dev",
     "require": {
         "php": ">=7.2.0",
-        "illuminate/database": "^7.10"
+        "illuminate/database": "^7.10",
+        "yansongda/pay": "^2.9"
     },
     "autoload": {
         "psr-4": {
